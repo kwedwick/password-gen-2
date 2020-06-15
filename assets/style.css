@@ -13,7 +13,7 @@ body,
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: sans-serif;
   background-color: #f9fbfd;
 }
 
@@ -29,19 +29,7 @@ header {
   padding-top: 0px;
   color: hsl(206, 17%, 28%);
 }
-.form {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: repeat(4fr);
-  row-gap: 1rem;
-  column-gap: 1rem;
-  justify-content: center;
-  align-items: center;
-}
-.slider-number-group{
-  display: flex;
-  align-items: center;
-}
+
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
@@ -55,7 +43,7 @@ header {
 }
 
 .card-header::after {
-  content: "";
+  content: " ";
   display: block;
   width: 100%;
   background: #e7e9eb;
@@ -109,7 +97,7 @@ button[disabled] {
   float: right;
 }
 
-#passwordDisplay {
+#password {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
